@@ -1,4 +1,5 @@
 import "./App.css";
+import { LOGO_URL } from "../utils/const";
 function Head() {
   return (
     <div>
@@ -7,7 +8,7 @@ function Head() {
           <nav className="navbar">
             <img
               className="logo"
-              src="https://static.vecteezy.com/system/resources/thumbnails/007/500/121/small_2x/food-delivery-icon-clip-art-logo-simple-illustration-free-vector.jpg"
+              src= {LOGO_URL}
               alt="food logo"
             />
             <div><h2>DHRUV FOOD DELIVERY APP</h2></div>
