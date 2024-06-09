@@ -19,7 +19,9 @@ function Head() {
           </nav>
         </header>
       </div>
+      
     </div>
+
   );
 }
 

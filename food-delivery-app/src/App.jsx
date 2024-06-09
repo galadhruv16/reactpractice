@@ -6,21 +6,7 @@ function App() {
   return (
     <>
       <Head />
-      <div className="body">
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-        <Menu />
-      </div>
+      <Menu />
     </>
   );
 }
