@@ -3,18 +3,37 @@
   cursor: pointer;
 }
 .navbuttons {
+  
   display: flex;
-
 }
-.navbuttons >li{
+
+.navbuttons > li {
   list-style-type: none;
   padding: 10px;
   margin: 10px;
-  
+
   cursor: pointer;
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
-  
+}
+.app {
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+}
+.card:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.card {
+  width: 220px;
+  padding: 5px;
+
+  cursor: pointer;
+}
+.food {
+  width: 100%;
 }
